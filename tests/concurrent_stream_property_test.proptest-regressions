@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc ded2b3d6ac13f14444e0c64bdd9272d600fccf0b95e792fea8b09d051e29dc43 # shrinks to columns = [ColumnMetadata { name: "a", data_type: "AAA", nullable: false }], chunk_size = 1, stream_count = 2, row_counts = [0, 2]
+cc 47486b3b2166422ea2057b96868db73dc993cc566b694418c538feed2c477221 # shrinks to columns = [ColumnMetadata { name: "a", data_type: "AAA", nullable: false }], chunk_size = 1, row_count1 = 100, row_count2 = 100, row_count3 = 101

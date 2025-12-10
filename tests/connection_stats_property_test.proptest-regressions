@@ -1,0 +1,7 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc e9d099cf962413d89ca3d1362c5389322ae334b0885b6c5d6fbd21439efc2464 # shrinks to configs = [DataSourceConfig { key: "a-a", name: "aaA", host: "localhost", port: 3306, username: "aaa", password: "Aa0AaaaA", databases: [], pool_config: PoolConfig { max_connections: 10, min_connections: 2, connection_timeout_secs: 30, idle_timeout_secs: 300, max_lifetime_secs: 1800 } }]
